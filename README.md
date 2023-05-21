@@ -1,16 +1,20 @@
-### Hi there 👋
+## FrontEnd Developer 👨‍💻
+```javascript
+import { SoftwareDeveloper } from 'MoSzDEV';
 
-<!--
-**MoSzDEV/MoSzDEV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+class Bio extends SoftwareDeveloper {
+  name     = 'Mariano Ezequiel Sanchez';
+  Employment    = 'Process improvement';
+  Company  = 'Tacco Calpini S.A.';
+  location = 'Capital Federal, Argentina';
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class Skills extends SoftwareDeveloper {
+  languages  = ['JavaScript', 'HTML', 'Css'];
+  databases  = ['MongoDB'];
+  frameworks = ['React', 'React Native', 'NodeJS'];
+}
+```
+
+⭐️ From [MoSzDEV](https://github.com/moszdev)
